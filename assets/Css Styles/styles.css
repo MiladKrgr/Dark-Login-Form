@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Body Section  */
+
+body {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: black;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* Body Section Ends  */
+
+/* Login Section */
+
+.loginSection {
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    border-radius: 1.5rem;
+    margin-top: 100px;
+    box-shadow: 2px 2px 20px 5px aqua;
+}
+
+/* Title Scetion "Login" */
+
+.loginTitle {
+    font-family: cursive;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+/* Login Form Section  */
+
+.formSection {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.52rem;
+    text-align: justify;
+}
+
+.mailInput,
+.passInput {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid snow;
+}
+
+input {
+    color: aqua;
+}
+
+.formSection label {
+    font-size: 1rem;
+}
+
+/* Login Form Section Ends  */
+
+.backupPart{
+    cursor: pointer;
+}
+
+/* Submit Information Section  */
+
+.sumbitBtn .Btn {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    background-color: aqua;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    border-radius: 100px;
+}
+
+.sumbitBtn:hover button {
+    color: black;
+    background: aquamarine;
+}
+
+/* Submit Information Section Ends  */
